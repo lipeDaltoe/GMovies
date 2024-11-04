@@ -1,3 +1,6 @@
+git config --global user.name lipeDaltoe
+git config --global user.email felipedaltoe9@gmail.com
+
 npx create-expo-app@latest GMovies --template blank
 
 cd GMovies
@@ -15,7 +18,7 @@ npx tailwindcss init
 
 // Carousel
 npm i react-native-reanimated-carousel
-npm expo install react-native-reanimated
+npx expo install react-native-reanimated
 
 // React native heroicons
 npm i react-native-heroicons
